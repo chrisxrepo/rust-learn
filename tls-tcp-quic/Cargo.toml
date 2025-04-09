@@ -1,0 +1,5 @@
+[workspace]
+members = [ "loadca","quic-tls", "tcp-tls"]
+
+
+[workspace.dependencies]

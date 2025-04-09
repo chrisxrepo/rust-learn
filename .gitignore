@@ -1,0 +1,39 @@
+target/
+cmd/main
+.DS_Store
+tests/consumer/consumer
+tests/provider/provider
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+biligo/
+.vscode/
+dist/
+
+*.swp
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.exe
+*.exe~
+*.patch
+*.tmp
+*debug.test
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# project
+*.cert
+*.key
+.test
+iprepo.txt
+cmd/cmd
+comet_plugin/comet_pluging
+
