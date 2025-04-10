@@ -1,4 +1,4 @@
-target/
+garget/
 cmd/main
 .DS_Store
 tests/consumer/consumer
@@ -36,4 +36,5 @@ Thumbs.db
 iprepo.txt
 cmd/cmd
 comet_plugin/comet_pluging
-
+*.code-workspace
+target/

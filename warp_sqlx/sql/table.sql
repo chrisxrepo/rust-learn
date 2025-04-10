@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `User` (
+    `id` bigint(11) unsigned  NOT NULL AUTO_INCREMENT COMMENT '自增ID',
+    `name` varchar(64) NOT NULL DEFAULT '' COMMENT '名称',
+    `age` bigint(11) unsigned  NOT NULL DEFAULT 0 COMMENT '年龄',
+    `ctime` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+    `mtime` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '最后修改时间',
+    PRIMARY KEY (`id`),
+    INDEX idx_mtime (`mtime`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci COMMENT='用户';

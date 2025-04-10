@@ -1,0 +1,13 @@
+ID,Group,Project,AppID
+423,Relation-AiPegasus-S,ai.pegasus,ai.coredump.coredump
+15302,Relation-AiPegasusPegasusIndexToolTaishan-S,ai.pegasus,ai.pegasus.pegasus-index-tool
+9379,Relation-AiPegasusMiddlewareIndexTool-S,ai.pegasus,ai.pegasus.pegasus-index-tool
+7371,Relation-AiPegasus-Recindexing-PROD-S,ai.pegasus,ai.pegasus.pegasus-index-tool
+7370,Relation-AiPegasus-Recindexing-test-S,ai.pegasus,ai.pegasus.pegasus-index-tool
+15359,Relation-Relation-BDP-Databus-User-Relation-HDFS-Hr-S,datacenter.growth,datacenter.growth.growth-job
+10132,Relation-BDP-Databus-User-Relation-HDFS-S,datacenter.growth,datacenter.growth.growth-job
+10074,Relation-BDP-Databus-User-Relation-S,datacenter.growth,datacenter.growth.growth-job
+7291,Relation-BDP-New-Chain-S,datacenter.hadoop-pre,datacenter.hadoop-pre.bigdata-pre
+3664,Relation-DatacenterHadoopPre-S,datacenter.hadoop-pre,datacenter.hadoop-pre.bigdata-pre
+246,Relation-AiAgainstcheating-S,ai.againstcheating,datacenter.hive.hive-build
+11498,Relation-LiveLiveActivityPlayCustomActivityJob-S,live.live-activity-play,live.live-activity-play.custom-activity-job
