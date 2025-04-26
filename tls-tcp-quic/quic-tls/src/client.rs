@@ -4,7 +4,7 @@ use std::{
     sync::Arc,
 };
 
-use anyhow::Ok;
+use anyhow::{Ok, bail};
 use quinn::{Endpoint, crypto::rustls::QuicClientConfig};
 
 #[tokio::main]
